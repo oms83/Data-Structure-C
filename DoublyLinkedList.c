@@ -1,6 +1,9 @@
+// Omer MEMES
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 
 static int SIZE = 0;
 

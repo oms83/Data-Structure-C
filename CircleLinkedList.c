@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+// Omer MEMES
+
 struct Node
 {
     struct Node *Next;
