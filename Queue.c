@@ -220,7 +220,7 @@ struct Node *UpdateItem(struct Node *Head, int Index, int Value)
     return Head;
 }
 
-int Front(struct Node *Head)
+int Back(struct Node *Head)
 {
     struct Node *N1 = GetNodeByIndex(Head, 0);
     if (N1 != NULL)
@@ -232,7 +232,7 @@ int Front(struct Node *Head)
     return 0;
 }
 
-int Back(struct Node *Head)
+int Front(struct Node *Head)
 {
     struct Node *N1 = GetNodeByIndex(Head, SIZE - 1);
     if (N1 != NULL)

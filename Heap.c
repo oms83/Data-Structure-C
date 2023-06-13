@@ -1,7 +1,7 @@
 // Omer MEMES
 
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 void Swap(int *N1, int *N2)
 {
     int Temp = *N1;
